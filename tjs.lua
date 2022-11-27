@@ -34,12 +34,30 @@ peril = peril.."- There's a stacking buff on Strife and Peril. It goes up to 10 
 peril = peril.."- "..tank..heal..dps.."|cFF87CEFA[feeling of superiority] - buff that transfers by standing on another player.\n   Increases dmg/heal by 25% but take dmg.\n   Once xferd reduces dmg/healing done for 5 seconds.\n"
 aura_env.test_table["Peril"] = peril
 
+local liu_flameheart = "- phase 1 - 100-70% health\n"
+liu_flameheart = liu_flameheart..tank..heal.."|cFF87CEFA[serpent strike]|r - puts dot on tank. dispellable.\n"
+liu_flameheart = liu_flameheart..tank..heal..dps.."|cFF87CEFA[serpent kick]|r - run out of circle.\n"
+liu_flameheart = liu_flameheart.."- phase 2 - 70-30% health.\n"
+liu_flameheart = liu_flameheart.."|cFF87CEfa[Jade Essence]|r marks the transition to phase 2.\n"
+liu_flameheart = liu_flameheart..tank..heal.."|cFF87CEFA[Jade serpent strike]|r"..defensive.." tank hit + heal absorb.\n"
+liu_flameheart = liu_flameheart..tank..heal..dps.."|cFF87CEFA[jade serpent kick]|r - run out of circle.\n"
+liu_flameheart = liu_flameheart.."- phase 3 30-0% health.\n"
+liu_flameheart = liu_flameheart.."- runs to center of room and turns into a dragon to start p3.\n"
+liu_flameheart = liu_flameheart..tank.."|cFF87CEFA[Jade fire breath]|r - very wide frontal on tank.\n"
+aura_env.test_table["Liu Flameheart"] = liu_flameheart
+
+local sha_of_doubt = ""
+sha_of_doubt = sha_of_doubt..tank..heal..dps.."|cFF87CEFA[bounds of reality]|r - Immune until adds die. Stack together and face boss.\n"
+sha_of_doubt = sha_of_doubt..heal..dps.."|cFF87CEFA[touch of nothingness]|r"..defensive.." - on random player. Spread. Disepllable.\n"
+aura_env.test_table["Sha of Doubt"] = sha_of_doubt
+
+
+-- --trash--
 local shambling_infestation = ""
 shambling_infestation = shambling_infestation.."- "..tank..heal..dps.."|cFF87CEFA[flames of doubt]|r - frontal. dodge.\n"
 shambling_infestation = shambling_infestation.."- "..tank.."|cFF87CEFA[Summon sha]|r - summons a bunch of adds.\n"
 aura_env.test_table["Shambling Infestation"] = shambling_infestation
 
--- --trash--
 local corrupt_droplet = ""
 corrupt_droplet = corrupt_droplet.."- "..tank..heal..dps.."|cFF87CEFA[splash]|r"..stop.." - aoe damage.\n"
 aura_env.test_table["Corrupt Droplet"] = corrupt_droplet
@@ -89,6 +107,15 @@ aura_env.test_table["The Crybaby Hozen"] = crybaby_hozen
 local depraved_mistweaver = ""
 depraved_mistweaver = depraved_mistweaver.."- "..prio.."\n"
 depraved_mistweaver = depraved_mistweaver.."- "..tank..heal..dps.."|cFF87CEFA[Defiling mist]|r"..interrupt.." - tank magic hit.\n"
+aura_env.test_table["Depraved Mistweaver"] = depraved_mistweaver
 
 local sha_touched_guardian = ""
 sha_touched_guardian = sha_touched_guardian.."- "..tank..heal.."|cFF87CEFA[rising sun kick]|r - healing reduced debuff on tank.\n"
+sha_touched_guardian = sha_touched_guardian.."- "..tank..heal..dps.."|cFF87CEfA[lge sweep]|r - melee stun.\n"
+aura_env.test_table["Sha-Touched Guardian"] = sha_touched_guardian
+
+local minion_of_doubt = ""
+minion_of_doubt = minion_of_doubt.."- "..tank..heal.."|cFF87CEfA[Dark Claw]|r"..defensive.." - magic dmg tank hit.\n"
+minion_of_doubt = minion_of_doubt.."- "..tank..heal..dps.." - drops circles on ground, avoid.\n"
+aura_env.test_table["Minion of Doubt"] = minion_of_doubt
+
