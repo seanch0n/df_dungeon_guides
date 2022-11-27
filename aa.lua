@@ -1,7 +1,7 @@
 
-local tank = "|TInterface\\lfgframe\\groupfinder:19:19:::1024:1024:915:944:785:814|t"
-local heal = "|TInterface\\lfgframe\\groupfinder:19:19:::1024:1024:292:321:968:997|t"
-local dps = "|TInterface\\lfgframe\\groupfinder:19:19:::1024:1024:292:321:930:959|t"
+local tank = CreateAtlasMarkup("roleicon-tiny-tank", 16, 16)
+local heal = CreateAtlasMarkup("roleicon-tiny-healer", 16, 16)
+local dps = CreateAtlasMarkup("roleicon-tiny-dps", 16, 16)
 local interrupt = "|T132357:16|t"
 local stop = "|T613535:16|t"
 local defensive = "|T132362:16|t"
