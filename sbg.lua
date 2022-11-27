@@ -11,7 +11,7 @@ local aura_env = {} -- TODO DELETE ME
 --------------------------
 aura_env.test_table = {}
 
--- == SMG ==
+-- == SBG ==
 
 -- --bosses--
 local smg_sadana_bloodfury = ""
