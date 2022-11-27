@@ -40,6 +40,15 @@ rlp_blazehoof = rlp_blazehoof.."- "..tank..heal..dps.."|cFF87CEFA[Molten Boulder
 rlp_blazehoof = rlp_blazehoof.."- "..tank..heal.."|cFF87CEFA[Searing Blows]|r"..defensive.." - stacking magic dmg dot.\n"
 aura_env.test_table["Kokia Blazehoof"] = rlp_blazehoof
 
+local rlp_kyrakka = ""
+rlp_kyrakka = rlp_kyrakka..prio.."\n"
+rlp_kyrakka = rlp_kyrakka.."- |cFF87CEFA[flamespit]|r"..heal..dps..defensive.." - debuff on random player, run out.\n"
+rlp_kyrakka = rlp_kyrakka.."- |cFF87CEFA[Roaring Firebreath]|r"..tank..heal..dps.." - large frontal.\n"
+local rlp_erkhart_stormvein = ""
+rlp_erkhart_stormvein = rlp_erkhart_stormvein.."- |cFF87CEFA[Stormslam]|r"..tank..heal.." - every 10 seconds large magic hit. Dispel debuff ASAP\n"
+rlp_erkhart_stormvein = rlp_erkhart_stormvein.."-|cFF87CEFA[Interrupting Cloudburst"..heal..dps.."- interrupt spellcast, minor aoe.\n"
+rlp_erkhart_stormvein = rlp_erkhart_stormvein.."-|cFF87CEFA[Winds of Change]|r"..tank..heal..dps.."- winds push you and puddles around.\n"
+
 local rlp_thunderhead = ""
 rlp_thunderhead = rlp_thunderhead.."- "..tank..heal..dps.."|cFF87CEFA[storm breath]|r - huge frontal.\n"
 rlp_thunderhead = rlp_thunderhead.."- "..tank.."|cFF87CEFA[thunder jaw]|r"..defensive.." - knockback, large physical and magic damage.\n"
@@ -101,3 +110,9 @@ aura_env.test_table["Tempest Channeler"] = rlp_tempest_channeler
 local rlp_flame_channeler = ""
 rlp_flame_channeler = rlp_flame_channeler.."- |cFF87CEFA[flashfire]|r "..interrupt.." - channeled ability, large damage.\n"
 aura_env.test_table["Flame Channeler"] = rlp_flame_channeler
+
+local rlp_high_channeler_ryvati = ""
+rlp_high_channeler_ryvati = rlp_high_channeler_ryvati..tank..heal.."_ |cFF87CEFA[Shock Blast]|r - Dispellable dot on tank and melee dps.\n"
+rlp_high_channeler_ryvati = rlp_high_channeler_ryvati..dps.."- |cFF87CEFA[Tempest Storms]|r - focus shield or die.\n"
+rlp_high_channeler_ryvati = rlp_high_channeler_ryvati.."- |cFF87CEFA[Lightning Storm]|r"..stop..defensive.." - large aoe damage.\n"
+aura_env.test_table["High Channeler Ryvati"] = rlp_high_channeler_ryvati
