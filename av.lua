@@ -30,6 +30,21 @@ av_azureblade = av_azureblade.."- "..tank..dps.."|cFF87CEFA[Summon Draconic Imag
 av_azureblade = av_azureblade.."- "..tank..heal..dps.."|cFF87CEFA[Overwhelming]|r - intermission. Kill adds. Dodge aoe.\n"
 aura_env.test_table["Azureblade"] = av_azureblade
 
+local av_telash_greywing = ""
+av_telash_greywing = av_telash_greywing.."- "..tank..heal..dps.."|cFF87CEFA[Frost Bomb]|r - spread, drops puddle.\n"
+av_telash_greywing = av_telash_greywing.."- "..tank..heal..dps.."|cFF87CEfA[Absolute Zero]|r"..defensive.." - large aoe. STAND IN RUNE.\n"
+av_telash_greywing = av_telash_greywing.."- "..tank..heal..dps.."|cFF87CEFA[Icy devistator|r"..defensive.." - cast on random player, spread.\n"
+aura_env.test_table["Telash Greywing"] = av_telash_greywing
+
+local av_umbrelskul = ""
+av_umbrelskul = av_umbrelskul.."- "..tank..heal..dps.."stacking slow if you move. Stand still 10s or freedom.\n"
+av_umbrelskul = av_umbrelskul.."- "..dps.."75%, 50%, 25% spawns crystals around room. Kill them"..prio.."\n"
+av_umbrelskul = av_umbrelskul.."- "..tank..heal.."|cFF87CEFA[Dragon Strike]|r"..defensive.."magic tank hit. leaves dot to be dispelled.\n"
+av_umbrelskul = av_umbrelskul.."- "..heal.."|cFF87CEFA[Unleashed Destruction]|r - aoe damage.\n"
+av_umbrelskul = av_umbrelskul.."- "..tank..heal..dps.."|cFF87CEFA[Arcane Erruption]|r - avoid frontal toward random player.\n"
+av_umbrelskul = av_umbrelskul.."- "..tank..heal..dps.." avoid the large orbs on ground.\n"
+aura_env.test_table["Umbrelskul"] = av_umbrelskul
+
 -- --trash--
 local av_conjured_lasher = ""
 av_conjured_lasher = av_conjured_lasher.. "- "..heal..dps.."|cFF87CEFA[Mystic Vapors]|r"..interrupt.." - large party wide dot dmg.\n"
