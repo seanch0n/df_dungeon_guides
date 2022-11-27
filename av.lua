@@ -20,7 +20,7 @@ av_leymor = av_leymor..tank..heal.."- |cFF87CEFA[Infused Strike]|r"..defensive..
 av_leymor = av_leymor..tank.."- |cFF87CEFA[Erupting Fissure]|r - face boss toward trees. You can side step.\n"
 av_leymor = av_leymor..tank..dps.."     - spawns slimes when trees absorbed.\n"
 av_leymor = av_leymor..tank..heal..dps.."|cFF87CEFA[explosive brand]|r - run out from boss\n"
-av_leymor = av_leymor..tank..heal..dps.."     - stand near trees.\n"
+av_leymor = av_leymor..tank..heal..dps.."     - stand near trees. They spawn adds\n"
 aura_env.test_table["Leymor"] = av_leymor
 
 -- --trash--
@@ -41,3 +41,6 @@ aura_env.test_table["Shrieking Whelp"] = av_shrieking_whelp
 local av_bubbling_sapling = ""
 av_bubbling_sapling = av_bubbling_sapling..tank..dps.."|cFF87CEFA[Sappy Burst]|r - on death, large damage swirly.\n"
 aura_env.test_table["Bubbling Sapling"] = av_bubbling_sapling
+
+local av_arcane_elemental = ""
+av_arcane_elemental = av_arcane_elemental..heal..dps.."|cFF87CEFA[Waking Bane]|r"..interrupt.." - sleeps target. can be dispelled.\n"
