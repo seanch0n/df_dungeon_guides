@@ -26,6 +26,20 @@ smg_nhallish = smg_nhallish.."- "..tank..heal..dps.."|cFF87CEFA[Void Vortex]|r -
 smg_nhallish = smg_nhallish.."- "..tank..heal..dps.."|cFF87CEFA[Soul Steal]|r - kill your soul, then click on it. 40% dmg buff after\n"
 aura_env.test_table["Nhallish"] = smg_nhallish
 
+local smg_bonemaw = ""
+smg_bonemaw = smg_bonemaw.."- "..tank..heal..dps.."|cFF87CEFA[inhale]|r - go stand on bone piles.\n"
+smg_bonemaw = smg_bonemaw.."- "..tank..heal..dps.."|cFF87CEFA[body slam]|r - avoid.\n"
+smg_bonemaw = smg_bonemaw.."- If you fall off the platform, swim to water spouts.\n"
+smg_bonemaw = smg_bonemaw.."- "..heal..dps.."|cFF87CEFA[Corpse Breath]|r - cast on ranged player. Stand sorta close to boss.\n"
+aura_env.test_table["Bonemaw"] = smg_bonemaw
+
+local smg_nerzhul = ""
+smg_nerzhul = smg_nerzhul.."- "..heal..dps.."|cFF87CEFA[Malevolence]|r - cast on ranged player. Closer the more dmg it does.\n"
+smg_nerzhul = smg_nerzhul.."     - also casts large frontal.\n"
+smg_nerzhul = smg_nerzhul.."- "..tank..heal..dps.."|cFF87CEFA[Ritual of Bones]|r - focus 1 skeleton down.\n"
+
+aura_env.test_table["Ner'zhul"] = smg_nerzhul
+
 -- --trash--
 local smg_shadowmoon_loyalist = ""
 smg_shadowmoon_loyalist = smg_shadowmoon_loyalist.."- dispel buff.\n"
@@ -33,7 +47,7 @@ aura_env.test_table["Shadowmoon Loyalist"] = smg_shadowmoon_loyalist
 
 local smg_void_spawn = ""
 smg_void_spawn = smg_void_spawn.."- "..tank..heal..dps.."|cFF87CEFA[Void Erruptions]|r - dodge swirlies everywhere.\n"
-smg_void_spawn = smg_void_spawn.."- "..tank..heal..dps.."|cFF87CEFA[Void Pulse]|r"..defensive.." - large aoe damage. Unavoidable\n"
+smg_void_spawn = smg_void_spawn.."- "..tank..heal..dps.."|cFF87CEFA[Void Pulse]|r"..defensive.." - large aoe damage. can LOS\n"
 aura_env.test_table["Void Spawn"] = smg_void_spawn
 
 local smg_shadowmoon_bonemender = ""
@@ -67,3 +81,5 @@ aura_env.test_table["Plague Bat"] = smg_plague_bat
 
 local smg_carrion_worm = ""
 smg_carrion_worm = smg_carrion_worm.."- "..tank..heal..dps.."|cFF87CEFA[body slam]|r - dodge, always toward the tank.\n"
+smg_carrion_worm = smg_carrion_worm.."- dies at 20%.\n"
+aura_env.test_table["Carriorn Worm"] = smg_carrion_worm
